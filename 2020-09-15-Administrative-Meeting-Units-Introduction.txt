@@ -1,0 +1,227 @@
+Administrative meeting
+Unit introduction
+
+Gonna talk about all of the projects we might do
+
+Starting with technical foundation
+
+There's 3 modules
+
+24 credits
+8 required
+Can do 2 projects
+
+B-CPP-500: Advanced C++ (8 credits)
+B-DEV-500: App. Dev. (8 credits)
+B-FUN-500: Func. Prog. (8 credits)
+
+There's little chance unless you do a great project that you get the 8 credits in a single project
+Maximum credits from this is 16 credits
+
+R-Type (C++)
+
+R-Type is a C++ project with 2 defenses
+4 to 5 people
+Network game with two binaries, one server and one client
+The server must be able to handle several games in a row
+The R-Type bases its project mainly on the architecture, there is a big focus on the design pattern in CPP, especially the ECS
+
+R-Type is a multiplayer game with network
+2D with 
+
+Must make an ECS (Entity Component System)
+
+Can get 3 credits on the first defense w.r.t. architecture, handling of branches and PRs, handling of packaging
+Will also be graded on the first version of the project
+
+3 credits on something idk
+
+Last 2 credits are if you make a great project and get before the national committee
+
+The project must be cross-platform
+
+No idea if getting extra credits is particularly hard rn although there's gonna be a meeting about this
+
+Something w.r.t. all the projects is that if you didn't get your credits from this project then you can't get them anymore
+
+Defense #1: 2 cred. Prototype, 1 cred. Software Engineering
+Defense #2: 2 cred. Product, 1 cred. Software Engineering 
+Bonus: 2 cred.
+
+
+
+
+
+AREA project
+
+Group size: 4-5
+Defense count: 3
+
+Action.. reaction ?
+
+- User management
+- Connecting to services using APIs
+- Action and REAction of said services
+- Trigger management (i.e. say, trigger actions like sending mail when someone sends a tweet relating to you)
+- Project management
+- Planning
+
+
+2 month project
+
+Oriented towards web development along with mobile stuff
+
+3 parts, backend, web app and mobile app (apk, Android)
+
+Getting the app to work on iOS is completely a bonus
+
+Defense #1:
+- 1 cred. Planning
+Defense #2:
+- 1 cred. Prortype; 1 cred. Project management
+Defense #3:
+- 2 cred. Final product; 1 cred. Project management
+Bonus: 2 cred.
+
+Is language free ? Pretty much, although with a few restrictions and encouragements (not gonna help with shit like Flutter)
+Would C# be fine ? Ye, although JS is far more recommended (probably use React on the frontend, Node on the backend). For mobile you probably want to be using Kotlin or Flutter or [inaudible] native
+How is correction handled, is it all 100% manual ? The mouli just tests that it builds under Docker, nothing is tested automatically apart from the build
+If we do this project we MUST NOT FUCK UP PROJECT MANAGEMENT, if someone shows up asking for separate notation everyone is mega fucked. Kaben handles pretty much all of this
+
+
+
+
+
+
+GLaDOS
+
+Group size: 4-5
+Defense count: 2
+
+Your language ?
+- Developing a compiler/interpereter
+- Getting started with parsing
+- Create a language
+- Be able to run it or make a binary
+- CI/CD and Testing Pipeline
+
+Defense #1:
+- 2 cred. Prototype; 1 cred, Testing/CI/CD
+- 2 cred. Product; 1 cred, Testing/CI/CD
+Bonus: 2 cred,
+
+
+
+
+
+This project is a lot more made to handle testing infrastructure.
+The core goal of the project is creating a language that we can parse and interpret.
+Very important thing is setting up a dev environment, i.e. very important part is the CI
+
+
+We will really have to learn how to design a language, make ASTs and things like that
+
+First part is pretty much entirely setting up the dev environment and learning how to parse shit with Haskell
+Second part is actual language design where we must make up a new language
+
+
+
+We really need to show up to all the kickoffs
+
+
+2 groups and a half on the CPP
+1 group for FUN
+2 groups for AREA
+
+These were the 3 projects of the technical foundation
+Probably people will get at most 8 to 10 credits
+
+
+
+
+
+Technical Supplement
+
+Credits available: 10
+Credits required: 2
+
+B-AIA-500: Artificial Intelligence (2 credits)
+- Gomoku, game consisting in creating an AI for Go
+
+B-MAT-500: Mathematics (3 credits)
+- 301dannon, 302separation, ..., 309pollution
+
+B-FUN-500: Advanced Security (2 credits)
+- Chisel, is on TryHackMe
+
+B-AIA-500: Advanced DevOps (3 credits)
+- Bernstein, Whanos
+
+
+
+
+
+Innovation
+
+Credits available: 27
+Credits required: 13
+
+B-EIP-500: EIP validation (1 credit)
+- EIP - Choice
+
+B-MOO-500: Innov. - Moonshot (3 credits)
+- Moonshot part. 1, Moonshot part. 2
+
+B-MOO-501: Innov. - Improve (2 credits)
+- Sprint Desirability, Viability, Faisaibility
+
+B-MOO-502: Innov. - Make (3 credits)
+- Forward, E2
+
+B-PRO-500: Part-time Job (7 credits)
+B-INN-500: Hub Innovation (3, 5, 8 credits)
+G-CUS-00x: Kyt / Cat (2 credits)
+G-JAM-001: JAM(1) (1 credit)
+
+
+Can't possibly get all the credits considering the Part-time job and the 8 hub credits
+B-MOO-501 should be somewhat easy normally, some small work like knowing how to do a bit of marketing, market studies, etc. and things like that
+
+9 credits are basically guaranteed (the EIP stuff)
+
+What time is the objective for the Hub set ? Not known right now, will be known on Monday
+
+
+
+
+
+
+Soft Skills
+
+Credits available: 4
+Credits required: 3
+
+B-PCP-000: PCP Development (2 credits)
+- Activities
+
+B-PRO-510: Professional Comm. (2 credits)
+- Devil's avocate, 3 emails, The Geek Magazine
+
+
+
+
+
+
+Honorable mentions:
+
+Credits available: 12 
+
+B-ANG-001: English (1 credit)
+B-ANG-002: English (1 credit)
+B-ANG-003: English (1 credit)
+B-ANG-004: English (1 credit)
+G-EPI-010: Extra Curricular Enga. (3 credits) (Note: 2 credits max. for an external thing, 3 if in-campus)
+G-EPI-004: Promoting Epitech (1) (3 credits)
+
+
+Kevin thinks things are very doable for everyone although hard work is required

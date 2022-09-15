@@ -1,0 +1,130 @@
+Get credits to develop technical competencies you like
+Get apart from other students
+Find out things that aren't taught in Epitech
+Open oneself to the tech ecosystem outside of school
+
+10XP = 1 credit:
+3, 5 or 8 credits
+
+READ DESCRIPTIONS OF HUB ACTIVITIES BEFORE REGISTERING
+
+Activity types
+
+Hub Talks:
+
+Participation is 1XP (maximum 15XP)
+Organisation is 4XP (maximum 30XP)
+
+Prerequisites for organizing a talk:
+- Show Simon the talk is almost ready to book the date with PPT+content+Kahoot
+- Duration ~45 minutes (absolute minimum is 30 minutes without counting questions)
+- Preparing a Kahoot, as in an actual quiz on the actual app thingy (or one alike to it, but it has to be something like that) 
+- Define in advance the objectives of the talk and ensure afterwards that the knowledge has been adequately acquired with the Kahoot
+
+
+Hub workshops:
+
+Participation is 2XP (maximum 20XP)
+Organisation is 7XP (maximum 21XP)
+
+Prerequisites for organizing a workshop:
+- Show Simon the talk is almost ready to book the date (subject and/or exercise repo)
+- No full live-coding workshops where people basically just copy-paste whatever you're explaining, must have some kind of evaluation method
+- Minimum duration: 1h30: Prepare a way to evaluate the realisation of the workshop and content in advance for the fastest people
+
+
+Hackathons:
+
+Participation is 6XP (no limit)
+Organisation is 15XP (not just volunteering, must really be part of the organisation)
+
+Functioning:
+- Only counts complete Hackathons (~48h), otherwise it's an experience (example: "La nuit de l'info")
+- 50% of the participation price is handled by Epitech, 100% if you win a price
+- Must make a report+demo to validate presence
+
+Kevin asks if there's XP for volunteering: Simon says that since we're in PGE3 it only really counts as extracorricular involvement)
+
+
+Experience:
+
+Participation is 3XP (maximum 24XP)
+
+Functioning:
+- Discovery of a technology or going through a technology discovered in HubTalk/Workshop over a day.
+- Must talk in advance with Simon about it to fix the objectives and must do a report+demo afterwards
+- Should do it at the Hub (except particular parts)
+
+
+
+Hub projects:
+
+2XP per day of work (maximum 42XP per project)
+
+Functioning:
+- Realisation of a project sheet with Simon (potentially this will change over the year, will have to see) before starting the development and presenting it during a TalkUp
+- Follow-up of the project's advancement every 2 weeks
+- Progressive XPs (not obligation to finish it 100% to get them)
+
+What's a TalkUp ? Simon will go back to that later
+Hub projects, can we put an existing project into it ? Eeyup
+
+
+
+
+
+TalkUp:
+
+Participating in a talk is 1XP
+
+Functioning:
+- 1 Wednesday per month from 13h to 14h starting on the 26th of October
+- Monthly hub report [was too late]
+
+
+
+
+
+Clash code:
+
+The old "one hour per month everyone shows up" format is abandonned. (no more Logitech prices lol)
+Might be the end of it
+
+
+
+
+
+"Mercredi du Hub":
+
+Experience, counts as 3XP
+
+Functioning:
+- Every Wednesday afternoon from 14h to 18h (except TalkUp day)
+- Discovery/Knowledge deepening of technologies, test of materials, chill/studious ambience, exchanges, ...
+
+
+
+
+Can you ask Kaben for something ? Yes, usually if it's under 300€ and like 5 people want it, that's really nice
+
+
+
+
+
+
+
+Module "Promoting Epitech":
+Becoming an Epitech Ambassador
+
+It's not about being a human billboard
+You directly get credits towards the 60 credits for the year (4 cumulative over 2 semesters)
+You won't have to stand at the stand for the entire day, might be able to go see other people for internships and stuff
+Useful for building a network and learning professional communication skills
+
+Activities:
+- Roughly 50 activities over the 2 semesters
+- Must participate to at least 8 of them per semester
+
+Recruitment is done via contact on Teams (Jordan De Gruttola) or Discord (JordanDG#7149)
+
+ 
