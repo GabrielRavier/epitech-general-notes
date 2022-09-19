@@ -1,0 +1,77 @@
+AREA
+
+- 2 months seems like a long time but it goes by quickly
+- Must plan the project to achieve the objectives of each milestone in time
+- V-Model, agile, SCRUM, kanban... choose your style
+
+We're pretty shit at project organization at Epitech so this project is a lot about making sure we're good at it
+
+
+Milestone 1 - Plan
+
+1 week after the start of the project
+
+Must have a technological stack (should be done at bootstrap time)
+Must have read the subject and potentially looked at the technologies before coming to the bootstrap
+Must have chosen a project management method
+Must break down the project down into tasks, none too big, none too cmall, they must all tbe planned in time (individually by cycles and by milestone, depending on your method)
+Must plan how to choose who will do what
+Must choose tools to help one organize and communicate accordingly
+
+Kaben really does not want to see a group where someones does not work at all
+We must handle risk, i.e. what we do if someone gets sick and shit and we have to work with that
+There must not be bad project handling
+
+There's plenty of other things
+We must work on how we'll handle the project
+
+This is pretty much all that the bootstrap will focus on
+
+Might just want to work on making a Kanban (probably Trello, that seems nice, but I should probably look for an OSS alternative like Taiga unless Trello Free isn't as limited at it seems)
+
+
+
+
+
+
+
+
+
+Milestone 2 - Minimal Viable Product
+
+4 weeks after the start of the project
+
+Must have a Minimum Viable Product, something that can be deployed and shows we can finish the project
+
+
+
+
+
+
+
+Milestone 3 - Final Product
+
+At the end of the project
+
+Must have a fully featured project that at the very least respects all that's asked for in the subject, and have some documentation
+Must make a post-mortem of the project, which is a complete analysis of what went right and what went wrong, what we learned along the way, etc.
+Last credit is on the keynote, we must present very professionally what we did and everything, be able to talk about things like the project organisation in a professional way
+
+
+
+
+
+Reaching for the bonus ?
+Things evaluated by the jury:
+- Have a testing policy on your project (unit tests, integration tests, ...)
+- Completely deploy your project using CI and CD
+- Have a great and accomplished UX
+
+
+
+Normally the project subject should be enough to do exactly what they want
+Simon goes into a detailed explanation of the project... ugh
+
+Everything must be orchestrated via Docker, very precisely detailed in the project (must use docker-compose)
+docker-compose is mandatory and if you don't use it that's a flat 0
+

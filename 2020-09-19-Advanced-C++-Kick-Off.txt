@@ -1,0 +1,291 @@
+B5 - Advanced C++ - Kick-off
+
+
+It's a shmup
+Network and ECS are more important for notation
+We must have a proper organization, live coding will not cut it
+
+Design networked game-engine in C+
+- Network programming
+- Game Engine architecture, ECS in particular
+- Networked Multiplayer Game, anti-lag system with interpolation and things like that
+
+Explore advanced topics
+- Architecture
+- Network
+- Game design
+
+Adopt proper software engineering practices
+- Documentation
+- Build/packaging tools
+- VCS workflow
+- Cross-platform programming
+
+
+All libs must be in the project but not vendored, instead use stuff like conan or vcpkg
+
+
+
+Project overview
+
+Part 0 - Software Engineering
+- "Professional" product (documentation. packaging, how Git is used)
+- Both defenses - 1 credit each (2 total)
+
+Part 1 -Prototype
+- Core features
+- Basic gampleay
+- 1st defense - 2 credits
+
+Part 2 - Advanced software
+- Improve the prototype
+- Pick & choose advanced topic
+- 2nd defence - 2 credits
+
+Bonus - National Jury
+- A grade only
+- 2 bonus credits for best projects
+
+
+
+Project or Product ? We must make a product
+
+Project vs Product
+- "Works on my machine" vs Work everywhere
+- "Here are the dependencies you need" vs Install its dependencies
+- "Just ping me if you have questions" vs Well-made documentation
+- "Hop on the discord if you have ideas" vs Contributing rules+guidelines
+
+
+
+Expectations are that it's a self-contained project, 
+i.e. you don't need to download random stuff except for example the package manager (i.e. we don't have to magically install Conan on Windows from the CMakeLists lol)
+
+Must have at least 2 platforms working - can't be just Linux and Mac or Linux and WSL
+
+MUST HAVE PROPER VCS WORKFLOW, "live-share" is basically forbidden
+Must have good commit titles/bodies
+
+Should probably use CMake CPack for releases and upload that stuff on Github Releases
+
+
+
+
+Proper documentation is MANDATORY, and IT MUST BE UP TO DATE
+
+The README must be useful
+Probably contain at least
+- Installation information
+- Usage
+- Examples
+Perhaps OpenCV can be used as a base... ?
+
+Developer documentation should contain stuff like diagrams (well, text should be enough, I hope) with the layers/subsystems, perhaps even UML stuff (ugh)
+- Stuff like explaining how the networking and things like that
+
+Answer to question w.r.t. images in docs: Should probably have at least UML but just text might be enough if its more pertinent to do it like that
+
+
+In particular the network protocol must be documented
+In a language agnostic way
+Should be enough to write a client or server for the game
+Possible errors should be acknowledged
+
+
+We should have it document the various errors and stuff like that
+
+
+
+Documentation must not be done in PDF or Word
+Probably we should setup something like Doxygen with .md/Github Pages
+They should allow for IDE integration ? Huh...
+Also look at this thing called Sphinx
+
+
+
+
+
+Part 1 - Prototype
+
+What's a proto ?
+
+Don't need feature complete
+- Core features are present
+- Don't care about details
+
+Be quite careful w.r.t. architecture choices
+- Must remember we might just have to refactor later
+
+Good questions to ask
+- Do I need a menu ?
+- How will my choices right now impact the rest of the project ?
+
+
+
+
+
+Objectives
+
+Designing our own networked multiplayer engine:
+- Must have a proper software architecture with client/server
+
+Creating a basic R-Type like gameplay:
+- Must have an ECS
+- Moving player
+- Moving monster
+- Basic interactions (killing enemies/dying, etc.)
+
+
+
+
+
+Where to go now ?
+
+Refactoring is progress
+
+3 technical tracks
+- Advanced Game engine
+- Advanced Networking
+- Advanced Game design
+
+
+
+Engine Design - OOP shortcomings
+
+- Should unrelated objects have common ancestors ?
+- How many ancestors should an object have ? Does it make sense ?
+- How to handle dynamic changes ?
+- How to handle configuration ? (Use a dynamic JSON or stuff like that ?)
+- "Can we do better ? [inaudible]"
+
+
+
+
+
+
+Engine Design - ECS
+
+Entity
+- A "thing" inside the game, can be anything like an enemy, a sound or pretty much anything at all really
+- Could just be an ID lol
+
+Component
+- A trait or capability an entity has
+- Simple POCO struct
+- Contains data
+
+Systems
+- Implementing the actual logic and behaviours
+- Simple function/"scripts" (not in a different language from C++ lol)
+- Most works on only a few components
+- The same functions must be applicable to all entities that contain given components
+
+
+
+
+Multiplayer Design - What should the server do ?
+
+Everything ?
+- Can ensure data consistency, but is usually a bad idea since networking is slooooow
+
+"Only" Room, char & Match making ?
+- Who is responsible for data consistency ?
+
+
+
+Multiplayer Design - Where is the engine ?
+
+Server-side only
+- Client is simpler
+- Rendering and input handling only
+- Client is lost without constant stream of data.
+- Server must handle inputs
+
+Client-side only
+- One client must ensure consistency
+- Each client renders its own game
+- Host can cheat
+- Host must be powerful enough for 2 games.
+
+Server & Client side
+- Server is responsible for data
+- Client can react "instantly" to inptus ("tigher" controls)
+
+- Some way of reconciliation is needed (rollback ?)
+- Try to see rest of this slide later lol
+
+
+
+
+Network programmign for games
+
+
+Some questions to ask
+- What should I send ?
+- How often ?
+- Do I need speed or reliabiltiy ?
+- What happens if it never arrives ? Arrives twice ?
+
+Some answers
+- User input is important
+- Game data isn't (you can lose part of it)
+
+
+
+
+Network Programming - Protocol Design
+
+Text or Binary ?
+- Text is human readable
+- Bianry is shorter, faster & doesn't require parsing
+
+Only send necessary data
+
+Model your protocol
+- Make programming easier
+- Visual informatio nis easier to understand
+
+
+
+
+
+Research resources
+
+List of curated articles
+- (see slides)
+
+Can use any engine like SFML/SDL (not Unreal or Unity though lol obviously)
+- Might be able to use stuff like "Physics2D" or "loguru" (for logging ? apparently great) (https://github.com/emilk/loguru)
+
+
+
+Tools of the trade
+
+Dependency management
+- Git submodules
+- CMake (FetchPackage)
+- Package managers (Conan, VCPkg) (VCPkg might be better considering Windows...)
+
+CI/CD
+- Docker (build/test environment)
+- Github Actions
+
+Good practice & sanity check
+- Test Framework (Catch2, Criterion, Google tests, etc.)
+- Linters/formatter (clang-tidy, etc.)
+
+Documentation
+- Dia, StarUML, Lucid Chart
+- Doxygen, ReadTheDocs.io, Spinx, etc.
+
+
+Things to have code be auto-formatted when committing/pushing ?
+
+
+
+Questions ?
+- The bootstrap is all about software architecture.
+- Lets go have fun.......
+
+
+It is better to make groups that stay in the same place than inter-city projects so there'll be a 6-person group

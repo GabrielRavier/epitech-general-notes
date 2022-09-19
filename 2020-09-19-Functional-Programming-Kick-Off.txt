@@ -1,0 +1,19 @@
+B-FUN-50
+GLaDOS
+
+Generic Language and Data Operand Syntax (Generic Lifeform and Disk Operating System)
+
+One of the 3 main projects
+2 months, 2 defenses
+4 to 5 students
+
+Three big parts:
+PART 0, THE SUPER IMPORTANT PART YOU GET 0 IF YOU DON'T DO PROPERLY: Unit tests, Functional tests, CI/CD
+- Basic 5-Expression parser -> Advanced Parsing Techniques -> Your own Language Parser
+- Basic interpreter -> Advanced interpreter -> Virtual Machine/Compiler
+
+
+We'll make a lisp-like language
+
+
+Big technical explanation of how parsers and ASTs work...
