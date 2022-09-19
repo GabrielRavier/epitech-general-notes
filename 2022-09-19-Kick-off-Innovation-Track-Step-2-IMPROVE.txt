@@ -1,0 +1,45 @@
+We will rethink our project on a few things
+
+IMPROVE
+
+Until the 19th November
+
+Desirability sprint #1
+Desirability sprint #2
+Viability sprint
+Feasability sprint
+
+Desirability
+
+Field actions
+- These are objectives to be fulfilled to increase one of the 3 objectives of design thinking
+
+We must choose 4 objectives on each sprint
+We will actually end up having to do all of them since there are only 8 objectives total
+
+It must not be just the project lead who does everything, everyone must have their role
+
+
+Notation
+
+Points:
+0: Not completed or sloppy
+1: In progress with results
+2: Finalized
+
+Desirability: 8 tasks on 8
+Viability: 4 tasks on 8
+Feasability: 4 tasks on 8
+
+
+
+Structure
+
+Objectives
+- Conduct a comprehensive study
+- Synthesize ideas
+- Working in Agile
+- Work in a group
+- Convince an audience
+
+This all seems dumb and just "checkmark" activities but they should be able to get us to refocus our ideas and really understand what we do
