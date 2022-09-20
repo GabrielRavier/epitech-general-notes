@@ -255,7 +255,7 @@ List of curated articles
 - (see slides)
 
 Can use any engine like SFML/SDL (not Unreal or Unity though lol obviously)
-- Might be able to use stuff like "Physics2D" or "loguru" (for logging ? apparently great) (https://github.com/emilk/loguru)
+- Might be able to use stuff like "Box2D" or "loguru" (for logging ? apparently great) (https://github.com/emilk/loguru)
 
 
 
